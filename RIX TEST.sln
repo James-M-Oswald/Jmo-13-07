@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIX TEST", "RIX TEST\RIX TEST.csproj", "{D821A851-D809-426B-9090-FF39E6B58767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D821A851-D809-426B-9090-FF39E6B58767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D821A851-D809-426B-9090-FF39E6B58767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D821A851-D809-426B-9090-FF39E6B58767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D821A851-D809-426B-9090-FF39E6B58767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6332054-9A51-46BD-AC8E-44402D64F898}
+	EndGlobalSection
+EndGlobal

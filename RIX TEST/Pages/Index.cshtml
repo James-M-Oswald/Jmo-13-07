@@ -1,0 +1,64 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!--
+A vibrant team of expert analysts, strategists, marketeers, and techies that know their stuff
+and are passionate about revolutionising traditional businesses.
+Spinach Tech Consulting are a new digital agency and are looking to attract customers
+via their landing page.
+Which doesn't exist yet.
+Your task, given to you last minute from the marketing department, is to quickly 
+    create a landing page giving some basic company information 
+    and a form to take the company name and email of any potential client.
+
+Luckily there is a company lookup API which returns company details here
+https://boring-feynman-756e82.netlify.app/api/companies?name=spinach
+The form should capture the customer’s email and the company name, address and
+number from the searched results.
+
+For the purposes of this test the details can be output to the console, a simulated API call
+or other endpoint.
+-->
+
+<body>
+    <p1 class="para">
+        A vibrant team of expert analysts, strategists, marketeers, and techies that know their stuff
+        and are passionate about revolutionising traditional businesses.
+        Spinach Tech Consulting are a new digital agency
+    </p1>
+    <br />
+    <br />
+    <p2 class="para">Please complete our form below, where a colleague will get in touch with you shortly</p2>
+    <br />
+    <section>
+        <div class="container">
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label form="Name">Company Name</label>
+                    <input type="text" name="name" value="Name" />
+                </div>
+
+                <div class="form-group">
+                    <label form="email">E-Mail</label>
+                    <input type="text" name="email" value="E-Mail" />
+                </div>
+
+                <div class="form-group">
+                    <label form="organisation">Address</label>
+                    <input type="text" name="address" value="Address" />
+                </div>
+
+                <div class="form-group">
+                    <label form="phone">Phone Number</label>
+                    <input type="text" name="phone" value="Phone Number" />
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        @*<div id="status" class="error">Success Message sent</div>*@
+    </section>
+</body>

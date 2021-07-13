@@ -1,0 +1,176 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+align-content:center;
+color:black;
+font-weight:bolder;
+font-size:40px;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family:'montserrat';
+  background-color:yellow;
+}
+.footer {
+  position: fixed;
+
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.para{
+    font-weight:bold;
+    width:80%;
+}
+
+section{
+    height:80vh;
+    width:100%;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.container{
+    width:90%;
+    max-width:700px;
+    margin:0 auto;
+    padding:10px;
+    box-shadow; 0px 0px 20px #00000010;
+    border-radius: 8px;
+    margin-bottom:10px;
+}
+
+.form-group{
+    width:100%;
+    margin-top;10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:5px;
+    font-size:18px;
+    border: 1px solid rgb(255 0 0);
+    margin-top:5px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width:100%;
+    border:none;
+    outline:none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    color:blue;
+    text-align:center;
+    cursor:pointer;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]{
+    background-color:black;
+    color:white;
+
+}
+
+#status{
+    width:90%;
+    max-width: 500px;
+    text-align:center;
+    padding:10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/*#status.success{
+    background-color:lawngreen;
+    animation:status 4s ease forwards;
+}
+
+    #status.error {
+        background-color: red;
+        color: white;
+        animation: status 4s ease forwards;
+    }
+
+@keyframes status{
+    0%{
+        opacity:1;
+        pointer-events:all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity:0;
+        pointer-events:none;
+    }
+}*/
+
